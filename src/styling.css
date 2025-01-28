@@ -1,0 +1,93 @@
+/* General styling for the app */
+.app-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Book form styling */
+  .book-form input {
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .book-form button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Book list styling */
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .book-item {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-item h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .book-item p {
+    margin: 5px 0;
+  }
+  
+  .book-item .edit-btn, .book-item .delete-btn {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .book-item .edit-btn {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .book-item .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-item .delete-btn {
+    background-color: #FF6347;
+    color: white;
+  }
+  
+  .book-item .delete-btn:hover {
+    background-color: #e53e3e;
+  }
+  
+  /* Filter styling */
+  .filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-label {
+    margin-right: 10px;
+  }
+  
+  .filter-select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
